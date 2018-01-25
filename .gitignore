@@ -1,0 +1,8 @@
+#Node_Modules folder and other folders
+node_modules/
+src/
+.idea/
+
+#Unwanted files
+package-lock.json
+*.iml

@@ -1,0 +1,30 @@
+{
+  "name": "soloproject",
+  "version": "1.0.0",
+  "description": "Dummy framework for practising Protractor",
+  "main": "protractor.conf.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "./node_modules/protractor/bin/webdriver-manager update && protractor protractor.conf.js"
+  },
+  "repository": "https://github.com/visw2290/soloProtractor.git",
+  "keywords": [
+    "protractor",
+    "js",
+    "npm"
+  ],
+  "author": "Viswanathan Swaminathan",
+  "license": "ISC",
+  "engines": {
+    "npm": "latest",
+    "node": "latest"
+  },
+  "devDependencies": {
+    "protractor": "latest",
+    "selenium-webdriver": "latest",
+    "@types/jasmine": "latest",
+    "protractor-html-screenshot-reporter": "latest"
+  }
+}
